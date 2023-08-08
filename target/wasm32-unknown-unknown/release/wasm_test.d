@@ -1,1 +1,0 @@
-/mnt/f2dc7314-d1e4-4e2a-962e-a63792bf1e10/documents/workspace-rust/003-WASM/wasm-test/target/wasm32-unknown-unknown/release/wasm_test.wasm: /mnt/f2dc7314-d1e4-4e2a-962e-a63792bf1e10/documents/workspace-rust/003-WASM/wasm-test/src/lib.rs
