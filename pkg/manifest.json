@@ -1,0 +1,16 @@
+{
+  "name": "WASM Test",
+  "version": "0.1",
+  "manifest_version": 3,
+  "description": "Testing difference configurations for running WASM Rust",
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "web_accessible_resources": [{
+    "resources": ["wasm_test_bg.wasm"],
+    "matches": ["*://*/*"]
+  }],
+    "content_security_policy": {
+      "extension_pages": "default-src 'self' 'wasm-unsafe-eval'"
+  }
+}
